@@ -23,6 +23,8 @@ token = x.headers['X-Subject-Token']
 
 # print(token)
 
+# EJEMPLO OBTENER LISTA DE IPS PUBLICAS POR APIS
+
 url2 = 'https://vpc.la-south-2.myhuaweicloud.com/v1/'+project_id+'/publicips'
 headers2 = {'Content-Type': 'application/json', 'X-Auth-Token': token}
 
